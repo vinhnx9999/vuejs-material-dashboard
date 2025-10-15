@@ -102,4 +102,8 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+p {
+  display: inline;
+}
+</style>

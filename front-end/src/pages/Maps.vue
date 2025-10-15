@@ -4,14 +4,14 @@
 
 <script>
 import { API_KEY } from "./API_KEY";
-import { Loader, LoaderOptions } from "google-maps";
+import { Loader } from "google-maps";
 
 const loader = new Loader(API_KEY);
 export default {
   mounted() {
     loader.load().then(function (google) {
-      var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
-      var mapOptions = {
+      let myLatlng = new google.maps.LatLng(10.867426, 106.626563);
+      let mapOptions = {
         zoom: 13,
         center: myLatlng,
         scrollwheel: false, // we disable de scroll over the map, it is a really annoing when you scroll through page
@@ -78,7 +78,7 @@ export default {
       };
       var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-      var marker = new google.maps.Marker({
+      let marker = new google.maps.Marker({
         position: myLatlng,
         title: "Hello World!",
       });

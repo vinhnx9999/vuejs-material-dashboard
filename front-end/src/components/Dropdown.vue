@@ -25,7 +25,10 @@
 export default {
   name: "drop-down",
   props: {
-    title: String,
+    title: {
+      type: String,
+      required: true,
+    },
     icon: String,
   },
   data() {

@@ -15,6 +15,7 @@
       <a
         href="https://github.com/vinhnx9999/vuejs-material-dashboard"
         target="_blank"
+        rel="noopener noreferrer"
         class="simple-text logo-normal"
       >
         {{ title }}

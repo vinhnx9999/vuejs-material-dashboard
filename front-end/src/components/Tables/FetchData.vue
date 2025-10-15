@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Fetched Data</h2>
+    <h2>Task Manager</h2>
     <div v-if="loading">Loading...</div>
     <div v-else-if="error">{{ error }}</div>
     <ul v-else>

@@ -7,8 +7,7 @@
             <h4 class="title">Material Design Icons</h4>
             <p class="category">
               Handcrafted by our friends from
-              <a target="_blank" href="https://design.google.com/icons/"
-                >Google</a
+              <a target="_blank" href="https://design.google.com/icons/" rel="noopener noreferrer">Google</a
               >
             </p>
           </md-card-header>
@@ -24,7 +23,7 @@
                 The icons are visible on Desktop mode inside an iframe. Since
                 the iframe is not working on Mobile and Tablets please visit the
                 icons on their original page on Google. Check the
-                <a href="https://design.google.com/icons/" target="_blank"
+                <a href="https://design.google.com/icons/" target="_blank" rel="noopener noreferrer"
                   >Material Icons</a
                 >
               </h5>

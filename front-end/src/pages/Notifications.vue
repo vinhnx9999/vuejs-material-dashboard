@@ -158,7 +158,7 @@ export default {
   },
   methods: {
     notifyVue(verticalAlign, horizontalAlign) {
-      var color = Math.floor(Math.random() * 4 + 1);
+      let color = Math.floor(Math.random() * 4 + 1);
       this.$notify({
         message:
           "Welcome to <b>Dashboard</b> - a visual interface that provides an at-a-glance overview of key metrics, reports, and data from various sources.",

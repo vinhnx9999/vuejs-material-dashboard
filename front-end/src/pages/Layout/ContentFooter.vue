@@ -11,7 +11,7 @@
           </li>
           <li>
             <a href="https://github.com/vinhnx9999"> Blog </a>
-          </li>         
+          </li>
         </ul>
       </nav>
       <div class="copyright text-center">
@@ -24,4 +24,8 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+p {
+  display: inline;
+}
+</style>

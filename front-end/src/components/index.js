@@ -8,7 +8,7 @@ import NavTabsTable from "./Tables/NavTabsTable.vue";
 import OrderedTable from "./Tables/OrderedTable.vue";
 import SimpleTable from "./Tables/SimpleTable.vue";
 
-import FetchData from "./FetchData.vue";
+import FetchData from "./Tables/FetchData.vue";
 
 export {
   ChartCard,

@@ -18,15 +18,21 @@
       ×
     </button>
     <i data-notify="icon" class="material-icons">{{ icon }}</i>
-    <span data-notify="message" v-html="message"></span>
+    <span data-notify="message">{{ message }}</span>
   </div>
 </template>
 <script>
 export default {
   name: "notification",
   props: {
-    message: String,
-    icon: String,
+    message: {
+      type: String,
+      required: true,
+    },
+    icon: {
+      type: String,
+      required: true,
+    },
     verticalAlign: {
       type: String,
       default: "top",

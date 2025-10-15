@@ -34,14 +34,11 @@
 </template>
 <script>
 import Vue from "vue";
-import SocialSharing from "vue-social-sharing";
 import VueGitHubButtons from "vue-github-buttons";
 import "vue-github-buttons/dist/vue-github-buttons.css";
-
-//Vue.use(SocialSharing);
 Vue.use(VueGitHubButtons, { useCache: true });
 export default {
-  components: {  },
+  components: {},
   data() {
     return {
       documentationLink: "",

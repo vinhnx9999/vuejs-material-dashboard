@@ -7,6 +7,20 @@ const userSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+    salary: {
+      type: Number,
+      required: false,
+    },
+    city: {
+      type: String,
+      required: false,
+      trim: true,
+    },
+    country: {
+      type: String,
+      required: true,
+      trim: true,
+    },
     status: {
       type: String,
       enum: ["active", "complete"],

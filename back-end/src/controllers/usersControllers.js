@@ -52,11 +52,13 @@ export const updateUser = async (req, res) => {
       return res.status(404).json({ message: "Something went wrong..." });
     }
 
-    res.status(200).json(updatedUser);
+    return res.status(200).json(updatedUser);
   } catch (error) {
     console.error("Error when updateUser", error);
-    res.status(500).json({ message: "Something went wrong..." });
+    return res.status(500).json({ message: "Something went wrong..." });
   }
+
+  return null;
 };
 
 export const deleteUser = async (req, res) => {
@@ -67,9 +69,11 @@ export const deleteUser = async (req, res) => {
       return res.status(404).json({ message: "Something went wrong..." });
     }
 
-    res.status(200).json(delUser);
+    return res.status(200).json(delUser);
   } catch (error) {
     console.error("Error when delete User", error);
-    res.status(500).json({ message: "Something went wrong..." });
+    return res.status(500).json({ message: "Something went wrong..." });
   }
+
+  return null;
 };
